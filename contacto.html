@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Dulce Bu/Contacto</title>
+  <link rel="stylesheet" href="estilo-index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="Imagenes/Dulce BU (1).ico">
+
+</head>
+
+<body>
+  <header class="header">
+    <!-- Top Navigation Menu -->
+    <div class="menunav">
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" id="icono">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <!-- Navigation links (hidden by default) -->
+      <div id="misLinks">
+        <a href="index.html" class="activo">Home</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="menu.html">Menú</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <form>
+      <div class="fila" id="fila-1">
+        <div class="columna-1">
+          <label>Nombre</label>
+        </div>
+        <div class="columna-2">
+          <input type="text" id="nombre" name="Nombre" placeholder="Escribe tu nombre...">
+        </div>
+      </div>
+      <div class="fila">
+        <div class="columna-1">
+          <label>Apellidos</label>
+        </div>
+        <div class="columna-2">
+          <input type="text" id="nombre" name="Nombre" placeholder="Escribe tus apellidos...">
+        </div>
+      </div>
+      <div class="fila">
+        <div class="columna-1">
+          <label>Email</label>
+        </div>
+        <div class="columna-2">
+          <input type="email" id="nombre" name="Nombre" placeholder="Escribe tus correo electrónico...">
+        </div>
+      </div>
+      <div class="fila">
+        <div class="columna-1">
+          <label for="country">Motivo</label>
+        </div>
+        <div class="columna-2">
+          <input type="radio" id="consulta" name="motivo" value="consulta">
+          <label for="consulta">Consulta</label><br>
+          <input type="radio" id="felicitaciones" name="motivo" value="felicitaciones">
+          <label for="felicitaciones">Felicitaciones</label><br>
+          <input type="radio" id="sugerencias" name="motivo" value="sugerencias">
+          <label for="sugerencias">Sugerencias/reclamos</label><br><br>
+          </select>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="columna-1">
+          <label for="subject">Escríbenos</label>
+        </div>
+        <div class="columna-2">
+          <textarea id="textarea" name="subject" placeholder="Escríbenos..."></textarea><br><br>
+        </div>
+      </div>
+      <div class="fila">
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+
+  </div>
+  <footer>
+    <div class="contacto">
+      <p>Contactanos:</p>
+      <p>Email: info@cafebu.cl</p>
+      <p>Telefono: +56923457732</p>
+    </div>
+    <div class="ubicacion">
+      <p>Ubicación:</p>
+      <p>Av.Libertador Bernardo O'Higgins #442,</p>
+      <p>Santiago Centro</p>
+    </div>
+    <div class="siguenos">
+      <p>Síguenos:</p>
+      <a href="https://www.tripadvisor.com"><img id="redes" src="imagenes/tripadvisor.svg"></a>
+      <a href="https://www.facebook.com"><img id="redes" src="imagenes/facebook.svg"></a>
+      <a href="https://www.whatsapp.com"><img id="redes" src="imagenes/whatsapp.svg"></a>
+
+    </div>
+  </footer>
+</body>
+<script src="jquery-3.5.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="slider.js"></script>
+
+</html>
